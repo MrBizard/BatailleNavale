@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<?import javafx.scene.control.cell.DefaultTreeCell?>
+<GridPane alignment="CENTER" gridLinesVisible="true" hgap="1.0" maxHeight="700.0" maxWidth="700.0" minHeight="500.0" minWidth="500.0" prefHeight="500.0" prefWidth="500.0" vgap="1.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="90.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <!-- indice Colonne !-->
+        <Label text="A" GridPane.columnIndex="1" />
+        <Label text="B" GridPane.columnIndex="2" />
+        <Label text="C" GridPane.columnIndex="3" />
+        <Label text="D" GridPane.columnIndex="4" />
+        <Label text="E" GridPane.columnIndex="5" />
+        <Label text="F" GridPane.columnIndex="6" />
+        <Label text="G" GridPane.columnIndex="7" />
+        <Label text="H" GridPane.columnIndex="8" />
+        <Label text="I" GridPane.columnIndex="9" />
+        <Label text="J" GridPane.columnIndex="10"/>
+        <!-- indice Ligne !-->
+        <Label text="1" GridPane.rowIndex="1" />
+        <Label text="2" GridPane.rowIndex="2" />
+        <Label text="3" GridPane.rowIndex="3" />
+        <Label text="4" GridPane.rowIndex="4" />
+        <Label text="5" GridPane.rowIndex="5" />
+        <Label text="6" GridPane.rowIndex="6" />
+        <Label text="7" GridPane.rowIndex="7" />
+        <Label text="8" GridPane.rowIndex="8" />
+        <Label text="9" GridPane.rowIndex="9" />
+        <Label text="10" GridPane.rowIndex="10" />
+
+        </children>
+</GridPane>
